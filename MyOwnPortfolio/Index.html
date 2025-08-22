@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jhorone - Portfolio</title>
+    <title>Jhorone - Music Studio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,15 +13,19 @@
 <body>
     <header>
         <nav class="container">
-            <div class="logo">YNZER</div>
+            <div class="logo">ynzer</div>
             
             <ul class="nav-links">
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#music">MUSIC</a></li>
+                <li><a href="#instruments">INSTRUMENTS</a></li>
+                <li><a href="#practice">PRACTICE</a></li>
+                <li><a href="#playlist">PLAYLIST</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
             
-            <div class="social-links">
-                <a href="#" title="LinkedIn"><img src="../images/SocialsOfficialLogo/LinkedIn-logo.png" alt="LinkedIn" class="social-logo"></a>
-                <a href="#" title="Facebook"><img src="../images/SocialsOfficialLogo/Facebook-logo.png" alt="Facebook" class="social-logo"></a>
-                <a href="#" title="Instagram"><img src="../images/SocialsOfficialLogo/Instagram-logo.png" alt="Instagram" class="social-logo"></a>
+            <div class="search-icon">
+                <i class="fa-solid fa-search"></i>
             </div>
         </nav>
     </header>
@@ -30,150 +34,294 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Jhorone Roxas</h1>
-                    <p>I believe in the saying:</p>
-                    <p>"Kung kaya ng iba ipagawa mo sakanila!"</p>
-                    
+                    <div class="title-line"></div>
+                    <h1>YNZER</h1>
+                    <h1>MUSIC PLACE</h1>
+                    <P>a safe place to feel and love music</P>
                 </div>
                 
-                <div class="hero-profile-image">
-                    <img src="../images/download.jpg" alt="Profile Picture">
+                <div class="hero-image">
+                    <img src="./images/music-studio.jpg" alt="Ynzer Music Studio" class="studio-image">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="my-hobbies">
+    <section class="highlights">
         <div class="container">
-            <h2>My HOBBIES</h2>
-            
-            <div class="hobbies-grid">
-                <div class="hobby-card">
-                    <div class="hobby-icon">🏀</div>
-                    <div class="hobby-name">Basketball</div>
-                </div>
-                
-                <div class="hobby-card">
-                    <div class="hobby-icon">🎮</div>
-                    <div class="hobby-name">Gaming</div>
-                </div>
-                
-                <div class="hobby-card">
-                    <div class="hobby-icon">📚</div>
-                    <div class="hobby-name">Reading</div>
-                </div>
-                
-                <div class="hobby-card">
-                    <div class="hobby-icon">🎵</div>
-                    <div class="hobby-name">Music</div>
-                </div>
-                
-                <div class="hobby-card">
-                    <div class="hobby-icon">✈️</div>
-                    <div class="hobby-name">Travel</div>
-                </div>
-
-                <div class="hobby-card">
-                    <div class="hobby-icon">🍜</div>
-                    <div class="hobby-name">Eating</div>
-                </div>
+            <div class="highlights-box">
+                <h3>HIGHLIGHTS</h3>
+                <ul>
+                    <li>Top 10 Wish Exclusive 2025</li>
+                    <li>Instrument Learning Journey</li>
+                    <li>Music Theory Fundamentals</li>
+                    <li>Practice Schedule & Goals</li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <section id="about" class="section">
+    <section id="music" class="section">
         <div class="container">
-            <h2>About Me</h2>
+            <h2>TOP 10 SONGS IN MY PLAYLIST</h2>
             
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>Computer Science Student</h3>
-                    <p>I'm a Student of Saint Louis University.Learning the fundamentals of programming and web development.Hopefully to land a successful career in the industry</p>
-                    <p>When I'm not coding, you can find me exploring new technologies, doing some of my hobbies like basketball, gaming, reading, music and eating.</p>
-                </div>
-                
-                <div class="about-profile-image">
-                    <img src="../images/Profile.jpg" alt="Profile Placeholder" 
-                    style="width: 100%; height: 400px; object-fit: cover;">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills" class="section">
-        <div class="container">
-            <h2>Skills & Technologies</h2>
-            
-            <div class="skills-grid">
-              
-                <div class="skill-card">
-                    <div class="skill-icon">⚙️</div>
-                    <h3>Backend</h3>
-                    <p>Java, Python, MySQL, AndroidStudio </p>
-                </div>
-                
-                <div class="skill-card">
-                    <div class="skill-icon">🎨</div>
-                    <h3>Design</h3>
-                    <p>, Figma, Canva, Capcut</p>
-                </div>
-                
-                <div class="skill-card">
-                    <div class="skill-icon">🚀</div>
-                    <h3>Tools</h3>
-                    <p>Git, Docker, BASH, </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="section">
-        <div class="container">
-            <h2>Featured Projects</h2>
-            
-            <div class="placeholder-message">
-                <div class="placeholder-icon">🚧</div>
-                <h3>Projects Coming Soon!</h3>
-                <p>I'm currently working on some exciting projects. Check back soon to see my latest work!</p>
-                <div class="placeholder-status">
-                    <span class="status-badge">In Development</span>
-                </div>
-            </div>
-            
-            <div class="projects-grid" style="display: none;">
-                <div class="project-card">
-                    <div class="project-image">🛒</div>
-                    <div class="project-content">
-                        <h3>E-Commerce Platform</h3>
-                        <p>A full-stack e-commerce solution with user authentication, payment processing, and admin dashboard.</p>
-                        <div class="project-links">
-                            <a href="#" class="live">Live Demo</a>
-                            <a href="#" class="code">View Code</a>
+            <div class="music-grid">
+                <div class="song-card">
+                    <div class="song-number">01</div>
+                    <div class="song-content">
+                                                <div class="song-media">
+                            <div class="thumbnail-container">
+                                <img src="https://img.youtube.com/vi/pSAtptOY7dI/maxresdefault.jpg" 
+                                     alt="Tibok - Earl Agustin" 
+                                     class="song-thumbnail"
+                                     onerror="this.src='https://img.youtube.com/vi/pSAtptOY7dI/hqdefault.jpg'; this.onerror=function(){this.src='https://via.placeholder.com/400x200/1f2937/ffffff?text=Tibok+-+Earl+Agustin';}">
+                                <div class="play-button" onclick="window.open('https://www.youtube.com/watch?v=pSAtptOY7dI', '_blank')">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
                         </div>
+                        <h3>"Tibok" – Earl Agustin</h3>
+                        <p>OPM Pop • TikTok Viral • 2024 Hit</p>
+                        <div class="song-status">Featured in Ang Mutya ng Section E</div>
                     </div>
                 </div>
                 
-                <div class="project-card">
-                    <div class="project-image">📱</div>
-                    <div class="project-content">
-                        <h3>Task Management App</h3>
-                        <p>A responsive web application for managing tasks with real-time updates and team collaboration.</p>
-                        <div class="project-links">
-                            <a href="#" class="live">Live Demo</a>
-                            <a href="#" class="code">View Code</a>
+                <div class="song-card">
+                    <div class="song-number">02</div>
+                    <div class="song-content">
+                                                <div class="song-media">
+                            <div class="thumbnail-container">
+                                <img src="https://img.youtube.com/vi/CcS1fsuT10M/maxresdefault.jpg" 
+                                     alt="Multo - Cup of Joe" 
+                                     class="song-thumbnail"
+                                     onerror="this.src='https://img.youtube.com/vi/CcS1fsuT10M/hqdefault.jpg'; this.onerror=function(){this.src='https://via.placeholder.com/400x200/1f2937/ffffff?text=Multo+-+Cup+of+Joe';}">
+                                <div class="play-button" onclick="window.open('https://www.youtube.com/watch?v=CcS1fsuT10M', '_blank')">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
                         </div>
+                        <h3>"Multo" – Cup of Joe</h3>
+                        <p>Pop-Rock • Heartfelt • Spotify PH #1</p>
+                        <div class="song-status">Storytelling OPM Excellence</div>
                     </div>
                 </div>
                 
-                <div class="project-card">
-                    <div class="project-image">🌐</div>
-                    <div class="project-content">
-                        <h3>Portfolio Website</h3>
-                        <p>A modern, responsive portfolio website showcasing skills, projects, and professional experience.</p>
-                        <div class="project-links">
-                            <a href="#" class="live">Live Demo</a>
-                            <a href="#" class="code">View Code</a>
+                <div class="song-card">
+                    <div class="song-number">03</div>
+                    <div class="song-content">
+                                                <div class="song-media">
+                            <div class="thumbnail-container">
+                                <img src="https://img.youtube.com/vi/0aNLFlFFKpw/maxresdefault.jpg" 
+                                     alt="Sa Bawat Sandali - Amiel Sol" 
+                                     class="song-thumbnail"
+                                     onerror="this.src='https://img.youtube.com/vi/0aNLFlFFKpw/hqdefault.jpg'; this.onerror=function(){this.src='https://via.placeholder.com/400x200/1f2937/ffffff?text=Sa+Bawat+Sandali+-+Amiel+Sol';}">
+                                <div class="play-button" onclick="window.open('https://www.youtube.com/watch?v=0aNLFlFFKpw', '_blank')">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
                         </div>
+                        <h3>"Sa Bawat Sandali" – Amiel Sol</h3>
+                        <p>Emotional Ballad • Most Streamed • 2024</p>
+                        <div class="song-status">Deeply Resonating with Listeners</div>
+                    </div>
+                </div>
+                
+                <div class="song-card">
+                    <div class="song-number">04</div>
+                    <div class="song-content">
+                                                <div class="song-media">
+                            <div class="thumbnail-container">
+                                <img src="https://img.youtube.com/vi/de6CnBa-qj0/maxresdefault.jpg" 
+                                     alt="DAM - SB19" 
+                                     class="song-thumbnail"
+                                     onerror="this.src='https://img.youtube.com/vi/de6CnBa-qj0/hqdefault.jpg'; this.onerror=function(){this.src='https://via.placeholder.com/400x200/1f2937/ffffff?text=DAM+-+SB19';}">
+                                <div class="play-button" onclick="window.open('https://www.youtube.com/watch?v=de6CnBa-qj0', '_blank')">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>"DAM" – SB19</h3>
+                        <p>P-Pop • Powerful • Dark Release</p>
+                        <div class="song-status">Strong Choreography & Visuals</div>
+                    </div>
+                </div>
+                
+                <div class="song-card">
+                    <div class="song-number">05</div>
+                    <div class="song-content">
+                                                <div class="song-media">
+                            <div class="thumbnail-container">
+                                <img src="https://img.youtube.com/vi/FxtrOYx2b_U/maxresdefault.jpg" 
+                                     alt="Zero Pressure - BINI" 
+                                     class="song-thumbnail"
+                                     onerror="this.src='https://img.youtube.com/vi/FxtrOYx2b_U/hqdefault.jpg'; this.onerror=function(){this.src='https://via.placeholder.com/400x200/1f2937/ffffff?text=Zero+Pressure+-+BINI';}">
+                                <div class="play-button" onclick="window.open('https://www.youtube.com/watch?v=FxtrOYx2b_U', '_blank')">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>"Zero Pressure" – BINI</h3>
+                        <p>Retro Pop • Feel-Good • Biniverse EP</p>
+                        <div class="song-status">Fan-Favorite Groove</div>
+                    </div>
+                </div>
+
+                <div class="song-card">
+                    <div class="song-number">06</div>
+                    <div class="song-content">
+                                                <div class="song-media">
+                            <div class="thumbnail-container">
+                                <img src="https://img.youtube.com/vi/PlySXiQDGsM/maxresdefault.jpg" 
+                                     alt="Blink Twice - BINI" 
+                                     class="song-thumbnail"
+                                     onerror="this.src='https://img.youtube.com/vi/PlySXiQDGsM/hqdefault.jpg'; this.onerror=function(){this.src='https://via.placeholder.com/400x200/1f2937/ffffff?text=Blink+Twice+-+BINI';}">
+                                <div class="play-button" onclick="window.open('https://www.youtube.com/watch?v=PlySXiQDGsM', '_blank')">
+                                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+        </div>
+                        <h3>"Blink Twice" – BINI</h3>
+                        <p>R&B/Pop • Modern • YouTube #1 PH</p>
+                        <div class="song-status">Signature BINI Charm</div>
+                    </div>
+                </div>
+                
+                <div class="song-card">
+                    <div class="song-number">07</div>
+                    <div class="song-content">
+                                                <div class="song-media">
+                            <div class="thumbnail-container">
+                                <img src="https://img.youtube.com/vi/q4yuaLn-v-4/maxresdefault.jpg" 
+                                     alt="Ano Ba Talaga Tayo - The Juans" 
+                                     class="song-thumbnail"
+                                     onerror="this.src='https://img.youtube.com/vi/q4yuaLn-v-4/hqdefault.jpg'; this.onerror=function(){this.src='https://via.placeholder.com/400x200/1f2937/ffffff?text=Ano+Ba+Talaga+Tayo+-+The+Juans';}">
+                                <div class="play-button" onclick="window.open('https://www.youtube.com/watch?v=q4yuaLn-v-4', '_blank')">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>"Ano Ba Talaga Tayo?" – The Juans</h3>
+                        <p>Emotional • Relatable • Love Song</p>
+                        <div class="song-status">Fans Keep Replaying</div>
+                    </div>
+                </div>
+                
+                <div class="song-card">
+                    <div class="song-number">08</div>
+                    <div class="song-content">
+                                                <div class="song-media">
+                            <div class="thumbnail-container">
+                                <img src="https://img.youtube.com/vi/FRTvF-OR4M4/maxresdefault.jpg" 
+                                     alt="Aura - IV of Spades" 
+                                     class="song-thumbnail"
+                                     onerror="this.src='https://img.youtube.com/vi/FRTvF-OR4M4/hqdefault.jpg'; this.onerror=function(){this.src='https://via.placeholder.com/400x200/1f2937/ffffff?text=Aura+-+IV+of+Spades';}">
+                                <div class="play-button" onclick="window.open('https://www.youtube.com/watch?v=FRTvF-OR4M4', '_blank')">
+                                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+        </div>
+                        <h3>"Nandito Ako" – Rob Daniel</h3>
+                        <p>OPM Classic • Acoustic • TikTok Viral</p>
+                        <div class="song-status">Modern Rendition of Ogie Alcasid Classic</div>
+                    </div>
+                </div>
+                
+                <div class="song-card">
+                    <div class="song-number">09</div>
+                    <div class="song-content">
+                        <div class="song-media">
+                            <div class="thumbnail-container">
+                                <img src="https://img.youtube.com/vi/9MmT13mCLOE/maxresdefault.jpg" 
+                                     alt="Saksi ang Langit - Jaya" 
+                                     class="song-thumbnail"
+                                     onerror="this.src='https://img.youtube.com/vi/9MmT13mCLOE/hqdefault.jpg'; this.onerror=function(){this.src='https://via.placeholder.com/400x200/1f2937/ffffff?text=Saksi+ang+Langit+-+Jaya';}">
+                                <div class="play-button" onclick="window.open('https://www.youtube.com/watch?v=9MmT13mCLOE', '_blank')">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>"Saksi ang Langit" – Jaya</h3>
+                        <p>OPM Ballad • 1990s Classic • Queen of Soul</p>
+                        <div class="song-status">Timeless Signature Hit by Jaya</div>
+                    </div>
+                </div>
+                
+                <div class="song-card">
+                    <div class="song-number">10</div>
+                    <div class="song-content">
+                        <div class="song-media">
+                            <div class="thumbnail-container">
+                                <img src="https://img.youtube.com/vi/cXO7CeGmAvs/maxresdefault.jpg" 
+                                     alt="B4 I Let You Go - Ryouji feat. CK YG" 
+                                     class="song-thumbnail"
+                                     onerror="this.src='https://img.youtube.com/vi/cXO7CeGmAvs/hqdefault.jpg'; this.onerror=function(){this.src='https://via.placeholder.com/400x200/1f2937/ffffff?text=B4+I+Let+You+Go+-+Ryouji+feat.+CK+YG';}">
+                                <div class="play-button" onclick="window.open('https://www.youtube.com/watch?v=cXO7CeGmAvs', '_blank')">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>"B4 I Let You Go" – Ryouji feat. CK YG</h3>
+                        <p>Rap-Ballad Fusion • Online Hit • Younger Listeners</p>
+                        <div class="song-status">Blew Up Online</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="instruments" class="section">
+        <div class="container">
+            <h2>Instruments I'm Learning</h2>
+            
+            <div class="instruments-grid">
+                <div class="instrument-card">
+                    <div class="instrument-icon">🎸</div>
+                    <h3>Guitar</h3>
+                    <p>Acoustic & Electric</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 25%"></div>
+                </div>
+                    <span class="progress-text">25% Complete</span>
+            </div>
+            
+                <div class="instrument-card">
+                    <div class="instrument-icon">🎹</div>
+                    <h3>Piano</h3>
+                    <p>Classical & Contemporary</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 15%"></div>
+                        </div>
+                    <span class="progress-text">15% Complete</span>
+                </div>
+                
+                <div class="instrument-card">
+                    <div class="instrument-icon">🥁</div>
+                    <h3>Drums</h3>
+                    <p>Rock & Jazz</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 10%"></div>
+                    </div>
+                    <span class="progress-text">10% Complete</span>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <section id="practice" class="section">
+        <div class="container">
+            <h2>Practice Schedule</h2>
+            
+            <div class="practice-content">
+                <div class="practice-text">
+                    <h3>Daily Music Practice</h3>
+                    <p>I'm building a consistent practice routine to master these songs and instruments. Each day focuses on different aspects: technique, theory, and song learning.</p>
+                    <p>Current goal: Practice 1 hour daily, focusing on one song per week until mastered.</p>
+                        </div>
+                
+                <div class="practice-image">
+                    <div class="image-placeholder">
+                        <i class="fa-solid fa-clock"></i>
+                        <span>Practice Time</span>
                     </div>
                 </div>
             </div>
@@ -213,12 +361,12 @@
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-logo">Jhorone</div>
+                <div class="footer-logo">Ynzer Music</div>
                 
-                <div class="footer-social social-links">
-                    <a href="#" title="LinkedIn"><img src="../images/SocialsOfficialLogo/LinkedIn-logo.png" alt="LinkedIn" class="social-logo"></a>
-                    <a href="#" title="Facebook"><img src="../images/SocialsOfficialLogo/Facebook-logo.png" alt="Facebook" class="social-logo"></a>
-                    <a href="#" title="Instagram"><img src="../images/SocialsOfficialLogo/Instagram-logo.png" alt="Instagram" class="social-logo"></a>
+                <div class="footer-social">
+                    <a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
             
@@ -227,8 +375,6 @@
                 <div class="contact-item"><i class="fa-solid fa-phone"></i><span>+63 9385645378</span></div>
                 <div class="contact-item"><i class="fa-solid fa-location-dot"></i><span>Baguio City, Philippines</span></div>
             </div>
-            
-            
         </div>
     </footer>
 
