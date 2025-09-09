@@ -864,6 +864,14 @@ html {
     margin-top: 1rem;
 }
 
+/* Hover effect for all song card titles */
+#music > .container .song-card h3:hover {
+    color: #4ade80;
+    transform: scale(1.05);
+    text-shadow: 0 0 10px rgba(74, 222, 128, 0.5);
+    transition: all 0.3s ease;
+}
+
 .song-content p {
     color: #a1a1aa;
     font-size: 0.95rem;
